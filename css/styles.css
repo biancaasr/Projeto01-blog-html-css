@@ -6,6 +6,10 @@ body {
     font-style: normal;
  }
 
+ a {
+    color:#2E94CC
+ }
+
  .titulo {
     font-optical-sizing: auto;
     font-weight: 600;
@@ -36,6 +40,7 @@ article {
 .post-author {
     color: #6c6c6c;
     font-size: 12px;
+    padding: 8px;
     line-height: 18px;
 }
 
@@ -44,6 +49,16 @@ article {
     font-size: 12px;
     font-weight: 600;
     line-height: 22px;
+}
+
+.share-post span {
+    margin-right: 4px;
+
+}
+
+.share-post img {
+    vertical-align: middle;
+    
 }
 
 .links-title {
@@ -61,10 +76,17 @@ article {
 
 h1 {
     margin: 0;
+    margin-bottom: 10px;
     font-size: 52px;
     letter-spacing: 1.3px;
     line-height: 58px;
 }
+
+article p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
 
 #title-section {
     margin-bottom: 50px;
@@ -82,6 +104,7 @@ h1 {
 
 iframe {
     margin: 50px 0;
+    max-width: 100%;
 }
 
 footer {
@@ -89,6 +112,7 @@ footer {
     max-width: 850px;
     margin: auto;
     padding: 20px 15px;
+    margin-bottom: 70px;
 }
 
 footer ul {
